@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Bebas+Neue&family=Ubuntu:wght@700&display=swap');
+
+
+@media(max-width:825px) and (min-width:431px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+        /* width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    }
+
+    /*banner*/
+    #banner-section {
+
+        background-image: url(/static/images/abckground-banner-tab.png);
+        width: auto;
+        height: auto;
+        height: 724px;
+
+
+    }
+
+    .banner-container {
+        width: 363px;
+        height: 272px;
+        padding-left: 40px;
+    }
+
+    #banner-section h1 {
+        font-size: 50px;
+        padding-top: 198px;
+    }
+
+    .hr-banner {
+        width: 130px;
+        height: 4px;
+        flex-shrink: 0;
+        stroke-width: 2px;
+        background-color: rgba(251, 185, 21, 0.60);
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #banner-section p {
+        font-size: 22px;
+        text-align: center;
+        padding-top: 0;
+
+    }
+
+    .banner-container>button {
+        margin: auto;
+        width: 227px;
+        height: 57px;
+        margin-top: 54px;
+    }
+
+    /*преимущества*/
+    .main-text {
+        font-family: Ubuntu;
+        font-size: 24px;
+        margin-top: 86px;
+    }
+
+    .text-service {
+        padding-left: 28px;
+    }
+
+    #service-section p {
+        font-family: Ubuntu;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 34px;
+    }
+
+    .card-grid {
+        gap: 21px;
+
+    }
+
+    .card1 {
+        width: 224px;
+        height: 270px;
+        margin: auto;
+
+    }
+
+    .card1 img {
+        width: 85px;
+        height: 85px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .card2 {
+        width: 224px;
+        height: 270px;
+        margin: auto;
+
+    }
+
+    .card2 img {
+        width: 85px;
+        height: 85px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .card3 {
+        width: 224px;
+        height: 270px;
+        margin: auto;
+
+    }
+
+    .card3 img {
+        width: 85px;
+        height: 85px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .zagolovok-card {
+        font-family: Ubuntu;
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+
+    .text-card {
+        font-family: Ubuntu;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /*абонементы*/
+    .zagolovok-abonement {
+        padding-left: 28px;
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+
+    .abonement-grid {
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+
+    .card-abonement1 {
+        width: 220px;
+        height: 306px;
+        margin: auto;
+    }
+
+    .abonement-grid img {
+        width: 87px;
+        height: 87px;
+        margin-top: 20px;
+        margin-bottom: 21px;
+        margin-right: 67px;
+        margin-left: 66px;
+    }
+
+    .zagolovok {
+        font-family: Ubuntu;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .info-abonement {
+        font-family: Ubuntu;
+        font-size: 15px;
+    }
+
+    .button-abonement1 {
+        margin-top: 20px;
+        width: 165px;
+        height: 42px;
+    }
+
+    .button-abonement1 a {
+        font-family: Ubuntu;
+        font-size: 16px;
+    }
+
+    .button-abonement-6999 {
+        margin-top: 20px;
+        width: 165px;
+        height: 42px;
+    }
+
+    .button-abonement-6999 a {
+        font-family: Ubuntu;
+        font-size: 16px;
+    }
+
+    /*вторвые 3 абонемента*/
+    .abonement-grid2 {
+        gap: 24px;
+
+    }
+
+    .abonement-grid2 img {
+        width: 87px;
+        height: 87px;
+        margin-top: 22px;
+        margin-bottom: 11px;
+        margin-right: 67px;
+        margin-left: 66px;
+    }
+
+    .zagolovok2 {
+        font-family: Ubuntu;
+        font-size: 22px;
+        margin-bottom: 11px;
+        width: 197px;
+    }
+
+    .abonement-grid2 .button-abonement1 {
+        margin-top: 14px;
+    }
+
+    /* отзывы и форма*/
+    #feedback {
+        margin-top: 89px;
+        padding-top: 62px;
+        background-image: url(/static/images/background-form-tab.png);
+        margin-bottom: 131px;
+    }
+
+    .feedback-grid {
+        gap: 0;
+        padding-bottom: 73px;
+    }
+
+    .card-feedback {
+        width: 321px;
+        height: 142px;
+        margin: auto;
+    }
+
+    .item-feedback1 {
+        display: none;
+    }
+
+    .item-feedback1-mobile {
+        display: block;
+        margin: auto;
+        padding-top: 13px;
+    }
+
+    .form-zagolovok {
+        padding-bottom: 43px;
+    }
+
+    .input1 {
+        width: 712px;
+        height: 52px;
+    }
+
+    .input2 {
+        width: 712px;
+        height: 52px;
+    }
+
+    form h2 {
+        padding-left: 60px;
+        margin-bottom: 43px;
+        margin-top: 43px;
+    }
+
+    textarea {
+        width: 709px;
+        height: 175px;
+        font-family: ubuntu;
+        font-size: 24px;
+        font-style: normal;
+        margin-bottom: 0;
+    }
+
+    .button-form {
+        width: 241px;
+        height: 53px;
+        margin-top: 44px;
+    }
+
+    /*вопросы*/
+    .questions-zagolovok {
+        margin-bottom: 60px;
+    }
+
+    #questions {
+        background-image: url(/static/images/background-questionds-tab.png);
+    }
+
+    .h2-question1 {
+        padding-left: 54px;
+        padding-top: 39px;
+        padding-top: 30px;
+        font-family: Ubuntu;
+        font-size: 24px;
+    }
+
+    .h2-question2 {
+        padding-left: 54px;
+        font-family: Ubuntu;
+        font-size: 24px;
+        padding-top: 39px;
+        padding-bottom: 30px;
+    }
+
+    .h2-question3 {
+        padding-left: 54px;
+        font-family: Ubuntu;
+        font-size: 24px;
+        padding-top: 39px;
+        padding-bottom: 30px;
+    }
+    #questions p {
+        font-family: Ubuntu;
+        font-size: 20px;
+        max-width: 709.401px;
+        margin: auto;
+    }
+    
+    #questions>.container {
+        padding-top: 23px;
+    }
+
+/*footer*/
+.footer-grid {
+    gap: 64px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.right-block p:last-child {
+font-size: 17px;
+}
+.caenter-block {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

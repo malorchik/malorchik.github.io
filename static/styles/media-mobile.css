@@ -1,0 +1,594 @@
+
+
+@media (max-width:430px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+        /* width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    }
+    #header-section {
+        height: 59px;
+
+
+    }
+
+
+    /*banner*/
+    #banner-section {
+        background-image: url(/static/images/background-banner-m.png);
+        width: auto;
+        height: auto;
+
+    }
+
+    .banner-container {
+        width: auto;
+        
+    }
+
+    #banner-section h1 {
+        color: #000;
+
+        font-family: Ubuntu;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 151px;
+        text-align: center;
+        padding-top: 250px;
+    }
+
+
+    .hr-banner {
+        width: 130px;
+        height: 4px;
+        flex-shrink: 0;
+        stroke-width: 2px;
+        background-color: rgba(251, 185, 21, 0.60);
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 38px;
+    }
+
+    #banner-section p {
+        width: 309px;
+        margin: auto;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 20px;
+        padding-bottom: 80px;
+    }
+
+    .banner-container>button {
+        margin: auto;
+
+    }
+
+    button a {
+
+        color: #AB534C;
+
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    /*преимущества*/
+    .main-text {
+        color: #000;
+        margin: auto;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 32px;
+        width: 354px;
+        padding-top: 38px;
+    }
+
+    #service-section p {
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 20px;
+        margin-bottom: 62px;
+
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+        gap: 31px;
+
+    }
+
+    .card1 {
+        width: 288px;
+        height: 270px;
+        margin: auto;
+    }
+
+    .card1 img {
+        width: 92px;
+        height: 92px;
+        margin-top: 17px;
+        margin-right: 98px;
+        margin-left: 98px;
+        margin-bottom: 19px;
+    }
+
+    .card2 {
+        width: 288px;
+        height: 270px;
+        margin: auto;
+    }
+
+    .card2 img {
+        width: 92px;
+        height: 92px;
+        margin-top: 17px;
+        margin-right: 98px;
+        margin-left: 98px;
+        margin-bottom: 19px;
+    }
+
+    .card3 {
+        width: 288px;
+        height: 270px;
+        margin: auto;
+    }
+
+    .card3 img {
+        width: 92px;
+        height: 92px;
+        margin-top: 17px;
+        margin-right: 98px;
+        margin-left: 98px;
+        margin-bottom: 19px;
+    }
+
+    .zagolovok-card {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+
+    .text-card {
+        font-size: 18px;
+        padding-top: 27px;
+    }
+
+
+    /*abonement*/
+    .zagolovok-abonement {
+        padding-top: 88px;
+        padding-bottom: 28px;
+        text-align: center;
+    }
+
+    .abonement-grid {
+
+        grid-template-columns: 1fr;
+        gap: 40px;
+
+    }
+
+    .card-abonement1 {
+        width: 220px;
+        height: 306px;
+        margin: auto;
+    }
+
+    .abonement-grid img {
+        width: 87px;
+        height: 87px;
+        margin-left: 67px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 67px;
+    }
+
+    .info-abonement {
+        font-size: 15px;
+        text-align: center;
+        width: 209px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+        
+    }
+
+    .button-abonement1 {
+        width: 165px;
+        height: 42px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 17px;
+    }
+
+    .button-abonement1 a {
+        font-size: 16px;
+    }
+
+    .button-abonement-6999 {
+        width: 165px;
+        height: 42px;
+        margin-top: 38px;
+        margin-bottom: 0px;
+        border-radius: 17px;
+    }
+
+    .button-abonement-6999 a {
+        font-size: 16px;
+    }
+
+    .zagolovok {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .hr-abonement {
+        display: block;
+        width: 68px;
+        height: 5px;
+        border: none;
+        background: #F3AF05;
+        margin: auto;
+        margin-bottom: 46px;
+        margin-top: 46px;
+
+    }
+
+    /*abonements 2*/
+    .abonement-grid2 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .card-abonement1 {
+        width: 220px;
+        height: 306px;
+        margin: auto;
+    }
+
+    .abonement-grid2 img {
+        width: 87px;
+        height: 87px;
+        margin-left: 67px;
+        margin-top: 22px;
+        margin-bottom: 11px;
+        margin-right: 67px;
+    }
+
+    .info-abonement {
+        font-size: 15px;
+        text-align: center;
+        width: 209px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+    }
+
+    .abonement-grid2 .button-abonement1 {
+        width: 165px;
+        height: 42px;
+        margin-top: 14px;
+        margin-bottom: 0px;
+        border-radius: 17px;
+    }
+
+    .button-abonement1 a {
+        font-size: 16px;
+    }
+
+
+    .zagolovok2 {
+        width: 197px;
+        font-size: 22px;
+        margin-bottom: 11px;
+    }
+
+    /*otziv and form*/
+    #feedback {
+        margin-top: 98px;
+        padding-top: 32px;
+        padding-bottom: 25px;
+        margin-bottom: 38px;
+    }
+
+    .feedback-zagolovok {
+        width: 287px;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+
+    .feedback-grid {
+        grid-template-columns: 1fr;
+        gap: 27px;
+        padding-bottom: 25px;
+    }
+
+    .card-feedback {
+        width: 321px;
+        height: 142px;
+        margin: auto;
+    }
+
+    .item-feedback1 {
+        display: none;
+    }
+
+    .item-feedback1-mobile {
+        display: block;
+        margin: auto;
+        padding-top: 13px;
+    }
+
+    .form-zagolovok {
+        width: 241px;
+        margin: auto;
+        padding-bottom: 17px;
+    }
+
+    .input1 {
+        width: 321px;
+        height: 41px;
+        font-size: 15px;
+
+
+    }
+
+    .input2 {
+        width: 321px;
+        height: 41px;
+        font-size: 15px;
+    }
+
+    form h2 {
+        font-size: 20px;
+        padding-left: 38px;
+    }
+
+    textarea {
+        padding-top: 37px;
+        width: 321px;
+        height: 91px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .button-form {
+        width: 219px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    /*questions*/
+    .questions-zagolovok {
+        width: 299px;
+        height: 74px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #questions {
+        background-image: url(/static/images/background-questions-mobile.png);
+        width: auto;
+        height: 708.079px;
+
+    }
+
+    /* #questions h2 {
+    width: 322px;
+height: 56px;
+font-size: 20px;
+text-align: center;
+margin: auto;
+margin-bottom: 20px;
+} */
+    #question h2 {
+        display: none;
+    }
+
+    .h2-question1 {
+        width: 322px;
+        height: 55.849px;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+        
+
+    }
+
+    .h2-question2 {
+        width: 328px;
+        height: 27px;
+        font-size: 22px;
+        margin: auto;
+        text-align: center;
+       
+        padding-top: 0px;
+        margin-top: 0;
+        margin-bottom: 19px;
+    }
+
+    .h2-question3 {
+        font-size: 20px;
+        width: 337px;
+        height: 55.849px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 19px;
+        padding-top: 0;
+    }
+    #questions>.container {
+       
+        padding-top: 40px;
+    }
+#questions p{
+    font-size: 14px;
+    text-align: center;
+}
+    
+    .hr-questions1 {
+        display: block;
+        width: 68px;
+        height: 1px;
+        border: 0;
+        background: rgba(246, 210, 117, 0.83);
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .hr-questions2 {
+        display: block;
+        width: 68px;
+        height: 1px;
+        border: 0;
+        background: rgba(246, 210, 117, 0.83);
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .question-section .container {
+        height: auto;
+    }
+
+
+    /*footer*/
+    #footer {
+        height: 947px;
+        padding-top: 0;
+
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 65px;
+
+    }
+
+    .left-block {
+        margin: auto;
+        margin-top: 65px;
+        width: 300px;
+        height: 193px;
+    }
+
+    .img-left-logo {
+        display: none;
+    }
+
+    .img-left-logo-mobile {
+        display: block;
+        margin: auto;
+        margin-bottom: 24px;
+
+    }
+
+    .tolking {
+        display: none;
+    }
+
+    .tolking2 {
+        display: flex;
+        gap: 75px;
+    }
+
+    .hr1-footer {
+        display: block;
+        height: 1px;
+        background: rgba(246, 210, 117, 0.83);
+        border: none;
+    }
+
+    /*center*/
+    .center-block {
+        width: 156px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .h2-center-footer {
+        font-size: 27px;
+        margin-bottom: 45px;
+    }
+
+    .p-center-footer {
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    .hr2-footer {
+        display: block;
+        height: 1px;
+        background: rgba(246, 210, 117, 0.83);
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
