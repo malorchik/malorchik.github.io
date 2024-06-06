@@ -1,0 +1,691 @@
+@media (max-width:1309px) {
+    .button-technology-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-order,
+    .button-decision {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media (max-width:1269px) {
+
+    /* котакты */
+    .h2-contacts {
+        max-width: 100%;
+    }
+
+    .contacts-full {
+        flex-direction: column;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    #map {
+        width: 100%;
+    }
+}
+
+@media (max-width:1210px) {
+
+    h1 {
+        text-align: center;
+        max-width: 667px;
+        margin-top: 0;
+        padding-top: 165px;
+        display: block;
+        margin: auto;
+    }
+
+    .sbis-and-information-security {
+        flex-direction: column;
+    }
+
+    .technology-block {
+        flex-direction: column;
+    }
+
+    .h1-description {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .button-technology-block {
+        flex-direction: row;
+    }
+
+    .information-security-block {
+        margin-top: 26px;
+    }
+
+
+    .h4-information-security {
+        max-width: 100%;
+        margin-bottom: 53px;
+    }
+
+    .ul-information-security-block li:nth-child(4) {
+        max-width: 100%;
+    }
+
+    .ul-information-security-block li:nth-child(2) {
+        max-width: 100%;
+    }
+
+    .logo-sbis {
+        top: 25%;
+        left: 90%;
+        width: 80px;
+    }
+
+    .sbis-block {
+        padding: 39px 120px 39px 62px;
+    }
+
+    .information-security-block {
+        padding: 33px 53px 33px 62px;
+    }
+
+    .img-triangles {
+        left: 90%;
+        top: 75%;
+    }
+
+    .achievements {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sbis-programs-full,
+    .information-security-full {
+        display: none;
+    }
+
+    .swiper-container1,
+    .swiper-container2 {
+        display: block;
+        margin-top: 60px;
+    }
+
+    /* .sbis-programs-full{
+    display: none;
+  } */
+    /* burger */
+    .burger {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background-color: #1A1A1A;
+        z-index: 100000000;
+    }
+
+    .logo-burger {
+        width: 80px;
+    }
+
+    .navbar-toggler {
+        color: #FAFAFA;
+    }
+
+    .collapsing {
+        background-color: #212121;
+    }
+
+    .navigation a {
+        color: #D9D9D9;
+    }
+
+    .nav-right-block a {
+        margin: 0;
+        width: 100%;
+        padding: 3px 10px;
+    }
+
+    .nav-right-block p {
+        display: none;
+    }
+
+    .collapse {
+        background-color: #212121;
+    }
+
+    .btn-block {
+        background-color: transparent;
+        --mdb-btn-hover-bg: #bdbcbc4a;
+    }
+
+    /* главный экран */
+    .right-block-technology{
+        margin-top: 130px;
+    }
+    .button-order:hover{
+        background-color: rgba(26, 26, 26, 1);
+    }
+    .button-order:active{
+        background-color: #5567CB;
+    }
+    .button-decision:hover{
+        background-color:#FAFAFA;
+        color: black;
+        transition: 0.2s;
+        border: 1px solid #000000;
+        }
+        .button-decision:active{
+            background-color:#F2662B;
+            border: 1px solid #F2662B;
+            color: white;
+            border: 1px solid #F2662B;
+        }
+        .button-nav:hover{
+            border: 1px solid #ffffff;
+            color: white;
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .button-nav:active{
+            background-color: #955FEF;
+            border: 1px solid #955FEF;
+            box-shadow: none;
+            transition: 0.2s;
+        }
+        .button-nav{
+            font-size: 14px;
+        }
+    .sbis-block:hover .arrow-absolute,
+    .information-security-block:hover .arrow-absolute2,
+    .sbis-block:hover>*:not(.arrow-absolute):not(.arrow-absolute *),
+    .information-security-block:hover>*:not(.arrow-absolute2):not(.arrow-absolute2 *) {
+        filter: none;
+        opacity: 1;
+        /* or set to the default opacity if it's not 1 */
+        transition: none;
+
+    }
+
+    /* Ensure that the ::before pseudo-elements are also not shown */
+    .sbis-block:hover::before,
+    .information-security-block:hover::before {
+        content: none;
+    }
+
+    .sbis-block:hover .arrow-absolute,
+    .information-security-block:hover .arrow-absolute2 {
+        display: none;
+        /* Это скроет элементы */
+    }
+
+    /* Убираем любые стили наведения, которые могут влиять на другие элементы */
+    .sbis-block:hover::before,
+    .information-security-block:hover::before,
+    .sbis-block:hover>*,
+    .information-security-block:hover>* {
+        filter: none;
+        transition: none;
+    }
+
+    /* преимущества */
+    .achievements {
+        margin-top: 40px;
+    }
+
+
+
+    /* о компании */
+    .p-o-nas {
+        max-width: 620px;
+    }
+
+    .director {
+        margin-bottom: 140px;
+    }
+
+    .right-about-the-company {
+        margin-left: 0px;
+    }
+
+    .h5-advantage {
+        font-size: 18px;
+    }
+
+    /* программы и услуги */
+    .d-inline-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sbis-programs-1,
+    .sbis-programs-2,
+    .sbis-programs-3,
+    .sbis-programs-4,
+    .sbis-security-1,
+    .sbis-security-2,
+    .sbis-security-3,
+    .sbis-security-4 {
+        width: 75%;
+        border-radius: 47px;
+    }
+
+    .button-block-programs {
+        display: none;
+    }
+
+    .d-inline-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .information-security-button-slider {
+        width: none;
+    }
+
+    .button-block-programs2 {
+        display: flex;
+        /* margin-top: 35px; */
+        align-items: center;
+    }
+
+    .sbis-button-slider,
+    .information-security-button-slider {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        border-radius: 47px;
+    }
+
+    .sbis-button-slider {
+        padding: 5px 55px;
+        background-color: rgba(85, 103, 203, 1);
+        border: none;
+        color: #ffffff;
+        height: 100%;
+        margin-bottom: 10px;
+        margin-right: 16px;
+    }
+
+    .information-security-button-slider {
+        padding: 5px 25px;
+        height: 100%;
+        background-color: #FAFAFA;
+        color: #000000;
+        border: 1px solid black;
+    }
+
+    /* form */
+    .contacts-block {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .h2-form-section {
+        margin-bottom: 25px;
+    }
+
+    .bottom-h2-description {
+        max-width: 624px;
+        margin-bottom: 100px;
+    }
+    .button-form{
+        background-color: #1A1A1A;
+        color: #BCBBBB;
+        padding: 10px 55px;
+        margin-bottom: 85px;
+        font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    transition: 0.2s;
+    border-radius: 47px;
+    }
+    .button-form:hover{
+        transition: 0.2s;
+        background-color: #1A1A1A;
+    }
+    .button-form:active{
+        background-color: #955FEF;
+    }
+    /* accordeon */
+    .h2-questions{
+        font-size: 36px;
+    }
+    /* contacts */
+    #contacts {
+        padding: 138px 0px 130px 0px;
+    }
+
+    /* footer */
+    .footer {
+        padding-top: 90px;
+        padding-bottom: 75px
+    }
+    .form-footer button{
+        background-color: #DAC4FF;
+        padding: 8px 26px;
+        font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.2s;
+    border-radius: 47px;
+    }
+    .form-footer button:hover{
+        transition: 0.2s;
+        background-color: #DAC4FF;
+    }
+    .form-footer button:active{
+        background-color: #955FEF;
+    }
+    .h4-footer-bottom {
+        margin-bottom: 60px;
+    }
+
+    .mail-block-footer {
+        margin-top: 60px;
+    }
+
+    .footer-full {
+        flex-direction: column;
+    }
+
+    .h4-footer,
+    .h4-footer-bottom {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:908px) {
+    .input-block {
+        flex-direction: column;
+    }
+
+    .form {
+        height: auto;
+    }
+
+    .input-block {
+        align-items: center;
+    }
+
+    .input-block-1,
+    .input-block-2 {
+        width: 100%;
+    }
+
+    .message {
+        margin-bottom: 30px;
+    }
+
+    .message,
+    .name,
+    .phone {
+        width: 100%;
+    }
+
+    .button-form {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:810px) {
+    .d-inline-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .d-inline-flex {
+        align-items: normal;
+    }
+}
+
+@media (max-width:699px) {
+    .grid-advantages {
+        grid-template-columns: 1fr;
+        gap: 65px;
+    }
+}
+
+@media (max-width:654px) {
+    .achievements-block-1 {
+        flex-direction: column;
+    }
+
+    .achievements-block-2 {
+        flex-direction: column;
+    }
+
+    /* .achievements-1, .achievements-2, .achievements-3, .achievements-4{
+        justify-content: center;
+    } */
+    .achievements {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .achievements-1,
+    .achievements-2,
+    .achievements-3,
+    .achievements-4 {
+        align-items: center;
+    }
+
+    .achievements-1 p,
+    .achievements-2 p,
+    .achievements-3 p,
+    .achievements-4 p {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .achievements-2 p {
+        margin-left: 20px;
+    }
+    .achievements-3{
+        margin-bottom: 36px;
+    }
+    .achievements-3 p {
+        margin-left: 20px;
+    }
+    .p-advantage{
+        margin-bottom: 0;
+    }
+    /* о нас */
+    .h2-o-nas {
+        font-size: 32px;
+    }
+    /* form */
+
+
+}
+@media (min-width:431px) and (max-width:560px){
+    .img-triangles{
+        display: none;
+    }
+}
+@media (max-width:621px) {
+    .button-block-programs2 {
+        flex-direction: column;
+    }
+
+    .sbis-button-slider,
+    .information-security-button-slider {
+        width: 90%;
+    }
+
+    .sbis-button-slider {
+        margin-right: 0px;
+        margin: 0;
+    }
+
+    .information-security-button-slider {
+        margin-top: 10px;
+    }
+
+    @media (max-width:530px) {
+        .button-technology-block {
+            flex-direction: column;
+        }
+    }
+}
+    @media (max-width:431px) {
+        .container {
+           max-width: 100%;
+           width: 100%;
+        }
+        #btn-back-to-top{
+            width: 55px;
+            height: 55px;
+        }
+        /* 1 экран */
+        h1 {
+            font-size: 32px;
+        }
+
+        .sbis-block {
+            padding: 40px 40px 40px 40px;
+        }
+
+        .information-security-block {
+            padding: 40px 40px 40px 40px;
+        }
+
+        .sbis-go {
+            width: 100%;
+
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo-sbis {
+            top: 14%;
+            left: 83%;
+            width: 50px;
+        }
+        .ul-sbis-block{
+            margin: 92px 0px 92px 0px;
+        }
+        .security-go {
+            width: 100%;
+        }
+
+        .h4-information-security {
+            z-index: 2;
+        }
+
+        .img-triangles {
+            top: 5%;
+            left: 105%;
+            z-index: 1;
+        }
+
+        /* преимущества */
+        
+
+        /* программы и услуги */
+        .sbis-button-slider,
+        .information-security-button-slider {
+            font-size: 16px;
+        }
+
+        .information-security-button-slider {
+            padding: 5px 0px;
+        }
+
+        .sbis-button-slider {
+            margin-bottom: 0;
+            margin-top: 20px;
+        }
+
+        .h2-programs-and-services {
+            font-size: 32px;
+            line-height: 35px;
+            margin-bottom: 0px;
+        }
+
+        /* form */
+        #form-section {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+       .form{
+        padding: 0px 30px;
+       }
+        .h2-form-section {
+            font-size: 32px;
+            margin-bottom: 8px;
+            line-height: 36px;
+        }
+
+        .bottom-h2-description {
+            font-size: 16px;
+            margin-bottom: 60px;
+        }
+
+        .h2-form {
+            font-size: 28px;
+        }
+
+        .button-form {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        /* accordeon */
+        .accordion-button {
+            font-size: 20px;
+        }
+        .h2-questions{
+            font-size: 32px;
+        }
+        /* contacts */
+
+        .h2-contacts {
+            font-size: 32px;
+            line-height: 35px;
+        }
+
+        .p-contact-top {
+            font-size: 20px;
+        }
+
+        /* footer */
+
+    }
+@media (max-width:374px){
+    .img-triangles{
+        display: none;
+    }
+    .nav-right-block a{
+        display: none;
+    }
+}

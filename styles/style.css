@@ -1,0 +1,953 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+input{
+    outline: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ol,ul{
+    padding-left: 1rem;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+width: 93%;
+    display: block;
+    margin: auto;
+}
+.burger{
+    display: none;
+}
+/* header */
+.header {
+    background-color: #1A1A1A;
+    padding: 10px 0px;
+}
+
+.nav-middle-block {
+    display: flex;
+    align-items: center;
+}
+
+.nav-middle-block a {
+    color: #ffffff;
+    transition: 0.2s;
+}
+.nav-middle-block a:hover{
+    color: #ffffffcf;
+    transition: 0.2s;
+}
+.button-nav {
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    width: 97%;
+    text-align: center;
+    color: white;
+    transition: 0.2s;
+}
+.button-nav:hover{
+    background-color: #955FEF;
+    border: 1px solid #955FEF;
+    box-shadow: 0px 0px 30px rgba(255,255, 255, 1);
+    transition: 0.2s;
+}
+/* button-top-scroll */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 10000;
+  }
+  #btn-back-to-top:focus{
+    background-color: #955FEF;
+  }
+/* первый экран */
+.sbis-and-information-security{
+    display: flex;
+}
+#information-technology-center{
+    background-color: #FAFAFA;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    max-width: 387px;
+    margin-top: 165px;
+}
+.h1-description{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+max-width: 441px;
+margin-bottom: 35px;
+}
+.button-order{
+    padding: 10px 55px;
+    background-color: rgba(26, 26, 26, 1);
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: center;
+border-radius: 47px;
+color: white;
+transition: 0.2s;
+}
+.button-order:hover{
+    background-color: #5567CB;
+}
+.button-decision{
+    padding: 10px 25px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: center;
+display: block;
+    width: 49%;
+    border-radius: 47px;
+    color: black;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+.button-decision:hover{
+background-color:#F2662B;
+color: white;
+transition: 0.2s;
+border: 1px solid #F2662B;
+}
+.technology-block{
+    gap: 55px;
+}
+.right-block-technology{
+    margin-top: 57px;
+}
+.h4-sbis {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: justified;
+    margin-bottom: 53px;
+}
+
+.ul-sbis-block li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: justified;
+}
+
+.ul-sbis-block li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.ul-information-security-block li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.sbis-go {
+    display: flex;
+    /* Используем flex для выравнивания элементов */
+    justify-content: center;
+    /* Центрируем содержимое по горизонтали */
+    align-items: center;
+    /* Центрируем содержимое по вертикали */
+    background-color: #5871EF;
+    color: white;
+    width: max-content;
+    padding: 12px 95px;
+    margin-top: 50px;
+    border-radius: 47px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.sbis-go:active{
+    background-color: #5871efaf;
+    color: rgba(255, 255, 255, 0.804);
+    transition: 0.2s;
+}
+.security-go {
+    display: flex;
+    /* Используем flex для выравнивания элементов */
+    justify-content: center;
+    /* Центрируем содержимое по горизонтали */
+    align-items: center;
+    /* Центрируем содержимое по вертикали */
+    background-color: #F2662B;
+    color: white;
+    width: max-content;
+    padding: 12px 95px 12px 95px;
+    margin-top: 50px;
+    border-radius: 47px;
+    text-decoration: none;
+}
+.security-go:active{
+    background-color: #f2672baa;
+    color: rgba(255, 255, 255, 0.804);
+}
+.h4-information-security {
+    max-width: 210px;
+}
+
+.ul-information-security-block {
+    margin-top: 30px;
+}
+
+.ul-information-security-block li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: justified;
+}
+
+.right-block-technology ul {
+    padding-left: 1rem;
+}
+
+.ul-information-security-block li:nth-child(4) {
+    max-width: 192px;
+}
+
+.ul-information-security-block li:nth-child(2) {
+    max-width: 232px;
+}
+
+.sbis-block {
+    padding: 39px 120px 150px 62px;
+    background-color: #C9D1F8;
+    position: relative;
+    border-radius: 47px;
+    user-select: none
+}
+
+.arrow-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 0;
+}
+.section-sbis, .section-ib{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px; 
+}
+.logo-sbis {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.sbis-block:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+    border-radius: 47px;
+}
+
+/* Скрываем arrow-absolute до наведения */
+.arrow-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* При наведении на sbis-block показываем arrow-absolute */
+.sbis-block:hover .arrow-absolute {
+    opacity: 1;
+}
+
+/* Убираем размытие для arrow-absolute и его дочерних элементов */
+.sbis-block:hover .arrow-absolute,
+.sbis-block:hover .arrow-absolute * {
+    filter: none;
+}
+
+/* Добавляем размытие для всех элементов, кроме arrow-absolute и его дочерних элементов */
+.sbis-block:hover>*:not(.arrow-absolute):not(.arrow-absolute *) {
+    filter: blur(5px);
+    border-radius: 47px;
+}
+
+.logo-sbis {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------ */
+.information-security-block {
+    padding: 33px 53px 126px 75px;
+    background-color: #FFD2BF;
+    position: relative;
+    overflow: hidden;
+    border-radius: 47px;
+    user-select: none
+}
+
+/* .arrow-absolute2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+} */
+.information-security-block:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+/* Скрываем arrow-absolute2 до наведения */
+.arrow-absolute2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* При наведении на information-security-block показываем arrow-absolute2 */
+.information-security-block:hover .arrow-absolute2 {
+    opacity: 1;
+}
+
+/* Убираем размытие для arrow-absolute2 и его дочерних элементов */
+.information-security-block:hover .arrow-absolute2,
+.information-security-block:hover .arrow-absolute2 * {
+    filter: none;
+}
+
+/* Добавляем размытие для всех элементов, кроме arrow-absolute2 и его дочерних элементов */
+.information-security-block:hover>*:not(.arrow-absolute2):not(.arrow-absolute2 *) {
+    filter: blur(5px);
+}
+
+.img-triangles {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+/* блок достижений */
+.achievements{
+    margin-top: 28px;
+    padding: 29px 37px;
+    border-radius: 23px;
+}
+.achievements-1, .achievements-2, .achievements-3, .achievements-4{
+    display: flex;
+}
+.achievements-1, .achievements-2{
+    margin-bottom: 36px;
+}
+.achievements-1 span, .achievements-2 span, .achievements-3 span, .achievements-4 span{
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+margin-right: 20px;
+}
+.achievements-1 p, .achievements-2 p, .achievements-3 p, .achievements-4 p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+margin-bottom: 0px;
+}
+.achievements-p1{
+    max-width: 267px;
+    margin-right: 63px;
+}
+.achievements-p2{
+    max-width: 215px;
+}
+.achievements-p3{
+    max-width: 252px;
+    margin-right: 57px;
+}
+.achievements-p4{
+    max-width: 237px;
+}
+
+/* о компании */
+#about-the-company{
+    padding: 134px 0px 131px 0px;
+    background-color: #FAFAFA;
+}
+.h2-o-nas{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.57px;
+text-align: left;
+}
+.p-o-nas{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+max-width: 441px;
+margin-bottom: 32px;
+}
+.director{
+    display: flex;
+}
+.name-director{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: justified;
+}
+.name-director-bottom{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: justified;
+}
+
+/* преимущества */
+.right-about-the-company{
+    margin-left: 54px;
+}
+.grid-advantages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:82px;
+    row-gap: 100px;
+}
+.advantage-1, .advantage-2, .advantage-3, .advantage-4, .advantage-5, .advantage-6{
+    display: flex;
+}
+.discription-advantage{
+    margin-left: 29px;
+}
+.h5-advantage{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+text-align: justified;
+}
+.p-advantage{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: justified;
+}
+/* программы и услуги */
+.swiper-container1, .swiper-container2{
+    display: none;
+}
+.button-block-programs2{
+display: none;
+}
+#programs-and-services{
+    padding: 47px 0px 87px 0px;
+    background-color: #FAFAFA;
+}
+.h2-programs-and-services{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 55.08px;
+text-align: left;
+}
+
+.sbis-button, .information-security-button{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+border-radius: 47px;
+}
+.sbis-button{
+    padding: 5px 55px;
+    background-color: rgba(85, 103, 203, 1);
+    border: none;
+    color: #ffffff;
+    height: 100%;
+}
+.information-security-button{
+    padding: 5px 25px;
+    height: 100%;
+    background-color: #FAFAFA;
+    color: #000000;
+    border: 1px solid black;
+}
+.sbis-programs-1, .sbis-programs-2, .sbis-programs-3, .sbis-programs-4{
+    width: 96%;
+    background-color: #C9D1F8;
+    height: 510px;
+    border-radius: 47px;
+}
+.h3-electronic-reporting{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.73px;
+text-align: justified;
+padding-top: 66px;
+}
+.button-block-sbis{
+    margin-top: 100px;
+    display: flex;
+justify-content: center;
+}
+.p-electronic-reporting{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+margin: 0px 46px;    
+}
+.order-button-reporting{
+    background-color: #1a1a1a;
+    padding: 10px 55px;
+    margin-right: 20px;
+}
+.catalog-sbis-button{
+    background-color: #C9D1F8;
+    padding: 10px 25px;
+}
+.navigation-sbis-block, .navigation-security-block{
+    display: block;
+text-align: end;
+width: fit-content;
+}
+.navigation-sbis-button, .navigation-security-button{
+    border-radius: 14px;
+    width: 440px;
+    height: 58px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: justified;
+border: 1px solid black;
+background-color: #FAFAFA;
+}
+.navigation-sbis-button:not(:last-child), .navigation-security-button:not(:last-child){
+    margin-bottom: 28px;
+}
+/* sbis-security */
+.sbis-programs-full, .information-security-full{
+    display: flex;
+} 
+.sbis-security-1, .sbis-security-2, .sbis-security-3, .sbis-security-4{
+    background-color: #FFD2BF;
+    width: 96%;
+    height: 510px;
+    border-radius: 52px;
+}
+.button-block-security{
+    margin-top: 100px;
+    display: flex;
+justify-content: center;
+}
+.order-button-security{
+    background-color: #1a1a1a;
+    padding: 10px 55px;
+    margin-right: 20px;
+}
+.catalog-ib-button{
+    padding: 10px 25px;
+    transition: 0.2s;
+    border: 1px solid black;
+    color: black;
+}
+.catalog-ib-button:hover{
+    background-color: #F2662B;
+    transition: 0.2s;
+    border: none;
+    color: #ffffff;
+    border:1px solid #F2662B;
+}
+/* form */
+#form-section{
+    padding: 145px 0px;
+    background-color: #FAFAFA;
+}
+.contacts-block{
+    display: flex;
+    justify-content: space-between;
+}
+.zagolovok-contacts{
+    display:block;
+    margin: auto 0;
+}
+.h2-form-section{
+    max-width: 407px;
+    font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.57px;
+text-align: left;
+}
+.bottom-h2-description{
+    max-width: 422px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+.form{
+    width: 64%;
+    height: 510px;
+    background-color: #DAC4FF;
+    padding: 0px 55px;
+    border-radius: 52px;
+}
+.h2-form{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.73px;
+margin: 54px 0px 49px 0px;
+}
+.input-block-2{
+    width: 60%;
+}
+.input-block-2 input{
+    display: block;
+    margin-right: auto;
+}
+.message, .name, .phone{
+    padding-left: 22px;
+}
+.input-block-1{
+    width: 80%;
+}
+.message{
+    width:93%;
+    /* height: 162px; */
+    padding: 11px 0px 132px 22px;
+    display: flex;
+   justify-content: start;
+   border-radius: 19px;
+}
+.name,.phone{
+    /* width: 299px; */
+    width:100% ;
+    height: 41px;
+}
+.input-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.button-form{
+    background-color: #1A1A1A;
+    color: #BCBBBB;
+    padding: 10px 55px;
+    margin-bottom: 85px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+transition: 0.2s;
+border-radius: 47px;
+}
+.button-form:hover{
+    transition: 0.2s;
+    background-color: #955FEF;
+}
+/* questions */
+#questions{
+    padding: 113px 0px 140px 0px;
+    background-color: #FAFAFA;
+}
+.accordion-button:not(.collapsed){
+    background-color: #FAFAFA;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+    background-color: #FAFAFA;
+}
+.accordion-button{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align: justified;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.accordion-body{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+padding: 0px 0px 20px 0px;
+background-color: #FAFAFA;
+}
+/* contacts */
+#contacts{
+    background-color: #212121;
+    padding: 138px 0px 247px 0px;
+}
+.h2-contacts{
+    max-width: 350px;
+    margin-bottom: 51px;
+    font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.57px;
+}
+.phone-block{
+    display: -webkit-box;
+}
+.map-block{
+    display: -webkit-box;
+}
+.description-contacts{
+ margin-left: 13px;
+}
+.p-contact-top{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+}
+.p-contact-bottom{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+max-width: 393px;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: #D9D9D9;
+    padding: 58px 0px 129px 0px;
+}
+.footer-full{
+    display: flex;
+    justify-content: space-between;
+}
+.h4-footer{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+max-width: 267px;
+}
+.h4-footer-bottom{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+max-width: 200px;
+margin-bottom: 92px;
+}
+.privacy-policy{
+    font-family: Inter;
+font-size: 11px;
+font-weight: 500;
+line-height: 16.98px;
+text-align: left;
+}
+.middle-block-footer a{
+ color: #D9D9D9;
+ font-family: Inter;
+font-size: 13.2px;
+font-weight: 400;
+line-height: 18.86px;
+transition: 0.2s;
+}
+.middle-block-footer a:hover{
+    color: #ffffff95;
+    transition: 0.2s;
+}
+.middle-block-footer a:not(:last-child){
+    margin-bottom: 8px;
+}
+.mail-block-footer, .phone-block-footer, .map-block-footer{
+    display: -webkit-box;
+}
+.right-block-footer p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.86px;
+margin-left: 8px;
+}
+/* form footer */
+.form-footer h6{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+}
+.form-footer input{
+   width: 57%;
+   padding: 8px 0px 8px 24px;
+   font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+border-radius: 47px;
+}
+.form-footer button{
+    background-color: #DAC4FF;
+    padding: 8px 26px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+transition: 0.2s;
+border-radius: 47px;
+}
+.form-footer button:hover{
+    transition: 0.2s;
+    background-color: #955FEF;
+}
